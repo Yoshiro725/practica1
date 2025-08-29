@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <GenerarRFC />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import GenerarRFC from './components/GenerarRFC.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    GenerarRFC
   }
 }
 </script>
